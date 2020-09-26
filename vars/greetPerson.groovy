@@ -7,3 +7,11 @@ def call(Map args) {
     return fullName
 
 }
+
+def greeting(Map args) {
+
+    fullName="${args.fname} ${args.lname}"
+    println "Hello ${fullName}"
+    return "Hello ${fullName}"
+
+}

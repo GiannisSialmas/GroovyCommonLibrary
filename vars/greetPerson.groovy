@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
+// This has been tested and it works
+
 //This is the default function. You can access it from the pipeline like this
 //fullName = greetPerson fname: "Giannis", lname: "Sialmas"
 def call(Map args) {

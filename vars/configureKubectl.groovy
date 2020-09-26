@@ -1,8 +1,10 @@
 #!/usr/bin/env groovy
 
+// This has been tested and it works
+
 // This function configures the kubectl to access your cluster.
 // You pass the cluster master ip, clusterToken, and namespace as named arguments
-// Another way to do this
+// Another way to do this is to get the credentials for the cluster inside this function from the credentials plugin
 
 def call(Map args) {
 	
